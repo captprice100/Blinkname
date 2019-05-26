@@ -5,11 +5,8 @@
 #include <ThingSpeak.h>
 
 
-#include "ThingSpeak.h"
-
 TCPClient client;
 
-#include "Adafruit_DHT.h"
 
 unsigned long myChannelNumber = 786977;		/*Thingspeak channel id*/
 const char * myWriteAPIKey = "KBKA8M3IHQWTGO6G";/*Channel's write API key*/
